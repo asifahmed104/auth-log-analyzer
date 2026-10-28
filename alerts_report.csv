@@ -1,0 +1,7 @@
+severity,type,source_ip,first_seen,detail
+HIGH,BRUTE_FORCE,203.0.113.45,2026-10-27T02:14:00,10 failed logins within 60s
+HIGH,PASSWORD_SPRAY,198.51.100.77,2026-10-27T09:03:00,"5 distinct usernames tried within 600s (e.g. admin, oracle, postgres, root)"
+HIGH,BRUTE_FORCE,192.0.2.150,2026-10-27T21:47:00,10 failed logins within 60s
+HIGH,POSSIBLE_COMPROMISE,192.0.2.150,2026-10-27T21:48:20,login as 'dpatel' succeeded after 25 failures in the previous 600s
+MEDIUM,INVALID_USER,203.0.113.45,2026-10-27T02:14:00,360 attempts on non-existent accounts
+MEDIUM,INVALID_USER,198.51.100.77,2026-10-27T09:03:00,120 attempts on non-existent accounts
